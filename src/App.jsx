@@ -11,6 +11,7 @@ function App() {
       {/* <ExcomCard /> */}
       {/* <CoreTeamCard /> */}
       <SponsorsSection />
+      <h1 className="text-white text-center">--------- Sponsors Page Starts ---------</h1>
       <SponsorsPage />
     </div>
   );

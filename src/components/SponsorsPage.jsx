@@ -40,7 +40,7 @@ function SponsorsPage() {
           <div className="flex flex-wrap gap-2 justify-center">
             {mainSponsors.map((sp, index) => (
               <div key={index}>
-                <SponsorLogo src={sp} w="320px" />
+                <SponsorLogo src={sp} w="280px" />
               </div>
             ))}
           </div>
@@ -54,7 +54,7 @@ function SponsorsPage() {
           <div className="flex flex-wrap gap-2 justify-center">
             {goldSponsors.map((sp, index) => (
               <div key={index}>
-                <SponsorLogo src={sp} w="300px" />
+                <SponsorLogo src={sp} w="280px" />
               </div>
             ))}
           </div>

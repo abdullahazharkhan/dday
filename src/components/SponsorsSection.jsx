@@ -38,26 +38,26 @@ function SponsorsSection() {
         </div>
       </div>
       <hr className="my-10 border-[#1e3e4e]" />
-      <div className="sponsor-gallery px-10 w-[80%] mx-auto">
+      <div className="sponsor-gallery w-[80%] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="grid gap-4">
             {firstCol.map((sp, ind) => (
               <div key={ind}>
-                <Sponsor src={sp} w={"300px"} />
+                <Sponsor src={sp} w={"250px"} />
               </div>
             ))}
           </div>
           <div className="grid gap-4">
             {secondCol.map((sp, ind) => (
               <div key={ind}>
-                <Sponsor src={sp} w={"300px"} />
+                <Sponsor src={sp} w={"250px"} />
               </div>
             ))}
           </div>
           <div className="grid gap-4">
             {thirdCol.map((sp, ind) => (
               <div key={ind}>
-                <Sponsor src={sp} w={"300px"} />
+                <Sponsor src={sp} w={"250px"} />
               </div>
             ))}
           </div>
@@ -65,7 +65,7 @@ function SponsorsSection() {
             <div className="grid gap-4">
               {fourthCol.map((sp, ind) => (
                 <div key={ind}>
-                  <Sponsor src={sp} w={"300px"} />
+                  <Sponsor src={sp} w={"250px"} />
                 </div>
               ))}
             </div>
