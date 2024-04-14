@@ -1,5 +1,8 @@
 import React from "react";
 import talonX from "../assets/talonX.png";
+import spursol from "../assets/spursol.png";
+import efu from "../assets/efu.png";
+import eplanet from "../assets/eplanet.png";
 
 function SponsorLogo({ src = talonX, w = "500px", url = "#" }) {
   return (
@@ -13,9 +16,9 @@ function SponsorLogo({ src = talonX, w = "500px", url = "#" }) {
 
 function SponsorsPage() {
   let mainSponsors = [talonX];
-  let coSponsors = [talonX, talonX, talonX];
-  let goldSponsors = [talonX, talonX, talonX, talonX];
-  let silverSponsors = [talonX, talonX, talonX, talonX, talonX, talonX];
+  let coSponsors = [talonX, eplanet, efu];
+  let goldSponsors = [talonX, talonX, eplanet, talonX];
+  let silverSponsors = [talonX, eplanet, talonX, talonX, eplanet, talonX];
   return (
     <div className="flex flex-col gap-12">
       <div className="flex flex-col items-center gap-4">

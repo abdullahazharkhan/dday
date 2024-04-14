@@ -11,7 +11,7 @@ function App() {
       {/* <ExcomCard /> */}
       {/* <CoreTeamCard /> */}
       <SponsorsSection />
-      {/* <SponsorsPage /> */}
+      <SponsorsPage />
     </div>
   );
 }
