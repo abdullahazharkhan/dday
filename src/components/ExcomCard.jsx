@@ -12,5 +12,4 @@ const ExcomCard = ({ title = "President", name = "Hammad", pictureUrl }) => {
       </div>
   );
 };
-
 export default ExcomCard;
